@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+}
+#main-header {
+    text-align: center;
+}
+
+body {
+    color: aliceblue;
+    background-image: url("https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+   background-size: cover;
+    }
+
+   img {
+    border-radius: 50%;
+  }   
+  body {
+    font-family: 'Comic Neue', cursive;  }
+
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+    }
+    html, body{
+        height:100vh;
+    }
+    body {
+        min-height:100vh;
+    }
+    
+    .container{
+        max-width: 100%; 
+        margin: 3px;
+        /* height: 400vh; */
+        height: calc(100%-100);
+    }
+    .clr {
+        clear: both;
+    }
+    .box {
+        border: 3px solid black;
+        padding: 50px;
+        width: 500;
+    
+    }
+    
+    #box-1 {
+        background-color: orange;
+        text-align: center;
+        margin-bottom: 3px;
+        /* height: 80vh; */
+    }
+    #box-2 {
+        float:right;
+        width: 69%;
+        background-color: purple;
+        margin-bottom: 3px; 
+        text-align: right;
+        height: calc(100vh - 275px);
+        /* height: calc(100vh - 865px); */
+        
+        
+    }
+    
+    #box-3 {
+        float: left;
+        width: 30%;
+        background-color: green;
+        margin-bottom: 3px;
+    
+        height: calc(100vh - 275px);
+        
+       
+    
+    }
+    #box-4{
+        background-color: blue;
+        text-align: center;
+    }
+    
